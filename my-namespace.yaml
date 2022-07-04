@@ -1,0 +1,7 @@
+#Run kubectl create -f ./my-namespace.yaml
+#kubectl create namespace my-namespace
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-namespace
