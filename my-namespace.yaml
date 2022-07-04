@@ -1,5 +1,7 @@
 #Run kubectl create -f ./my-namespace.yaml
 #kubectl create namespace my-namespace
+#kubectl delete namespaces my-namespace
+
 
 apiVersion: v1
 kind: Namespace
